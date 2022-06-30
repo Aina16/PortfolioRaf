@@ -1,0 +1,85 @@
+.contact{
+    margin:10px;
+    text-align: center;
+}
+.c-parent{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+     display: flex;
+     width: 800px;
+     padding: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 4px 4px 30px rgb(85, 83, 83),
+                inset 2px 2px 5px rgb(46, 42, 42) ;
+}
+.c-det{
+    background-image: url("contact.png");
+    background-repeat: no-repeat;
+    background-position-y: 0;
+    background-position-x: -90px;
+    width: 100%;
+    box-shadow: 2px 3px 5px beige, 2px 2px 8px bisque,
+    inset -2px -2px 10px black;
+}   
+.c--det{
+    display: flex;
+}
+.c-img{
+    width: 200px;
+}
+.cont-icon{
+    font-family: Arial;
+    margin:  5px  20px ;
+    text-align: left;
+    color: rgb(0, 106, 255);
+}
+.cont-text{
+    margin-top: 5px;
+    font-family:Arial;
+
+}
+.c-form{
+    display: block;
+    margin-left: 10px;
+    justify-content: center;
+    background-color: rgb(32, 32, 33);
+}
+.c--form{
+
+    display: block;
+
+    
+}
+.c--form input{
+    position: relative;
+    width: 380px;
+    height: 27px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    box-shadow: inset -2px -2px 5px rgb(33, 33, 28);
+
+}
+.c--form textarea{
+    position: relative;
+    width: 380px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset -2px -2px 5px rgb(33, 33, 28);
+    resize: none;
+}
+.c-formbtn button{
+    color: aliceblue;
+    font-size: 20pt;
+    border: none;
+    background-color: rgb(20, 67, 223);
+    width: 380px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

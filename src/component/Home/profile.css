@@ -1,0 +1,53 @@
+.p-cont{
+    margin:10px;
+    text-align: center;
+}
+.p-parent{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+     display: flex;
+     width: 800px;
+     padding: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 4px 4px 30px rgb(85, 83, 83),
+                inset 2px 2px 5px rgb(46, 42, 42) ;
+}
+.p-nom{
+    font-size: 18pt
+}
+.nom{
+    color: chocolate;
+    font-weight: bolder;
+}
+.p-det{
+    margin-top: 30px;
+    width: 400px;
+    padding: 20px;
+}
+.p--photo{
+    padding: 20px;
+}
+.p---photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 10px black;
+}
+.btn-dcv, .btn-lcv{
+    font-weight: bolder;
+    font-size: 12pt;
+    margin-left: 15px;
+    border:1px solid transparent;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    color: cornsilk;
+    cursor: pointer;
+    background-color: rgb(0, 132, 255);
+}
+.btn-dcv a{
+    color: white;
+    text-decoration: none;
+}

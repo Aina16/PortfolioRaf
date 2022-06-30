@@ -1,0 +1,93 @@
+.cv-cont{
+    margin:10px;
+    margin-bottom: 50px;
+    text-align: center;
+   
+} 
+.cv-parent{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    display: flex;
+    width: 800px;
+    height: 350px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 30px rgb(85, 83, 83),
+                inset 2px 2px 5px rgb(46, 42, 42) ;
+}
+.cv-menu{
+    border-right: 1px solid white;
+    text-align: left;
+    width: 250px;
+    
+}
+.cv-menu ul li{
+    list-style: none;
+    font-weight: bolder;
+    border: 1px solid;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+   width: 170px;
+   cursor: pointer;
+   border-radius: 20px;
+}
+.cv-det{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    width: 500px;
+    text-align: left;
+    line-height: 10px;
+}
+.text-edu{
+    color: chocolate;
+    font-weight: bolder;
+}
+.text--edu{
+    margin-bottom: 40px;
+}
+.lang{
+    margin-right: 20px;
+}
+.det-skil{
+    display: flex;
+    justify-content: center;
+}
+.img-cont{
+    margin-bottom: 20px;
+}
+.img-cont img{
+    width: 40px;
+}
+.pro-projet{
+    width: 200px;
+    height:200px;
+    box-shadow: 4px 4px 30px rgb(85, 83, 83),
+    inset 2px 2px 5px rgb(46, 42, 42) ;
+
+}
+.pro--img{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+.stat{
+    width:200px ;
+    height:50px ;
+    border-top: 1px solid;
+    text-align: center;
+    color: chocolate;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+.ci-img{
+    width: 50px;
+    height: 50px;
+}
+td{
+    padding: 20px;
+}

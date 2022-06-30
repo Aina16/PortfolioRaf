@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(46, 42, 42) ;
+    color: white;
+    font-family: corbel;
+    font-size: 14pt;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(45, 47, 64);
+    width: 100%;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+.navbar {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.card{
+    width: 200px;
+    padding: 5px;
+    border: 1px solid transparent ;
+    border-radius: 10px;
+    box-shadow: 9px 9px 10px black;
+    
+
+}
+.imgCard{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}.iconCard{
+    width: 25px;
+}
+.stats{
+    position: relative;
+    display: flex;
+
+}

@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.txt-logo{
+    color: white;
+    font-size: 28pt;
+    font-weight: bolder;
+    text-shadow: 3px 3px 10px #615e5e;
+}

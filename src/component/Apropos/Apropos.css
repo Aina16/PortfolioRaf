@@ -1,0 +1,58 @@
+.prp-cont{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.prp-titre{
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bolder;
+    font-family: Arial;
+    color: chocolate;
+}
+
+.prp-parent{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+     display: flex;
+     width: 800px;
+     margin-left: auto;
+     margin-right: auto;
+     box-shadow: 4px 4px 30px rgb(85, 83, 83),
+                inset 2px 2px 5px rgb(46, 42, 42) ;
+    border-radius: 20px ;
+    padding-bottom: 0px;
+}
+.aina{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.prp-det{
+    padding: 20px;
+    
+}
+.prp-text{
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.prp-mtr{
+    margin-bottom: 30px;
+}
+.prp-resume{
+    margin-left: 10%;
+}
+
+
+/*.prp-titre::before{
+    margin-top: 10px;
+    left:50%;
+    content: " ";
+    width: 200px;
+    position: absolute;
+    height: 5px;
+    background-color: chocolate;
+
+}*/
